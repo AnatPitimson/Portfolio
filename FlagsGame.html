@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Flags Game</title>
+    <link rel="stylesheet" href="../CSS1/Menu.css">
+    <link rel="stylesheet" href="../CSS1/ChatBot.css">
+    <link rel="stylesheet" href="../CSS1/FlagsGame.css" />
+</head>
+<body>
+
+    <header>
+        <div class="menu">
+            <div class="item_in_menu js-home-page-button">Home Page</div>
+            <div class="item_in_menu js-about-me-button">About</div>
+            <div class="item_in_menu js-trivia-game-button">Trivia Game</div>
+            <div class="item_in_menu js-memory-game-button">Memory Game</div>
+            <div style="font-weight:bold;" class="item_in_menu js-flags-game-button">Flags Game</div>
+            <div class="item_in_menu js-missions-button">Missions</div>
+            <div class="item_in_menu js-contact-button">Contact</div>
+            <div><img class="logo" src="../Picturs1/titles/name.png" /></div>
+        </div>
+    </header>
+
+    <div class="title_img">
+        <img src="../Picturs1/titles/flagsgame.png" />
+    </div>
+
+    <div class="game_borde">
+        <div class="js-game-header game_header">
+            <div class="js-game-title game_title">Flags Game</div>
+        </div>
+        <div class="opening">
+            <p>Hello</p>
+            <button class="js-play play_button">Start</button>
+        </div>
+
+        <div class="js-game game">
+            <p class="js-question">Which country's flag is in the picture?</p>
+
+            <p class="score js-score">Score:</p>
+            <button class="restart_game js-restart-game">Restart Game</button>
+
+            <div class="js-answers-container answers_container">
+
+            </div>
+
+            <div class="js-letters-container letters_container">
+
+            </div>
+
+            <div class="next_btn_wrapper">
+                <button class="next_button js-next-button">Next</button>
+                <button class="reset_button js-reset-button">Clean</button>
+            </div>
+        </div>
+
+    </div>
+
+    <button class="start"><img class="img_chat_icon" src="../Picturs1/chaticon.png" /></button>
+    <div class="chat_bot">
+        <header><h1>ChatBot</h1></header>
+        <ul class="chat_box"></ul>
+        <div class="chat_input">
+            <textarea class="js-input" placeholder="Please choose one of the options"></textarea>
+            <button class="js-send-btn">Send</button>
+        </div>
+    </div>
+
+    <script src="../JS1/Menu.js"></script>
+    <script src="../JS1/ChatBot.js"></script>
+    <script src="../JS1/FlagsGame.js"></script>
+</body>
+</html>
