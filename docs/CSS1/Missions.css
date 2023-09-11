@@ -1,0 +1,91 @@
+﻿body {
+    background-image: url('../Picturs1/background1.png');
+}
+
+.title_img {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin:10px;
+}
+
+.todo_grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 50px 300px 150px 100px;
+    column-gap: 10px;
+    grid-row-gap: 10px;
+    align-items: center;
+    background-color: rgb(248,242,240);
+    border:1px solid lightgray;
+    border-radius:10px;
+    margin:0px 350px;
+}
+
+.todo_input_grid {
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+    margin-bottom: 10px;
+    align-items: center;
+    background-color: rgb(248,242,240);
+}
+
+.date_input, .mission_input {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.mission_input {
+    height: 100px;
+    resize: none;
+    width: 300px;
+}
+
+.add_mission_button {
+    background-color:white;
+}
+
+.close_img {
+    height: 10px;
+    width: 10px;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.add_task_button {
+    cursor: pointer;
+    background-color: rgb(248,242,240);
+    margin-bottom:50px;
+}
+
+.todo-item {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 300px; 
+    word-wrap: break-word; 
+    overflow-y: auto; 
+    max-height: 200px; 
+    background-color:white;
+}
+
+.js-delete-todo-button {
+    cursor: pointer;
+    background-color: white;
+}
+

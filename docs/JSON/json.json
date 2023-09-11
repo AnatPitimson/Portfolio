@@ -1,0 +1,212 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "answers": [
+      {
+        "answerOptions": "Berlin",
+        "correct": false
+      },
+      {
+        "answerOptions": "London",
+        "correct": false
+      },
+      {
+        "answerOptions": "Paris",
+        "correct": true
+      },
+      {
+        "answerOptions": "Rome",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the chemical symbol for water?",
+    "answers": [
+      {
+        "answerOptions": "H2O",
+        "correct": true
+      },
+      {
+        "answerOptions": "CO2",
+        "correct": false
+      },
+      {
+        "answerOptions": "O2",
+        "correct": false
+      },
+      {
+        "answerOptions": "NaCl",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the tallest mountain in the world?",
+    "answers": [
+      {
+        "answerOptions": "Mount Kilimanjaro",
+        "correct": false
+      },
+      {
+        "answerOptions": "Mount Everest",
+        "correct": true
+      },
+      {
+        "answerOptions": "Mount Fuji",
+        "correct": false
+      },
+      {
+        "answerOptions": "Mount McKinley",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which animal is known as the 'King of the Jungle'?",
+    "answers": [
+      {
+        "answerOptions": "Lion",
+        "correct": true
+      },
+      {
+        "answerOptions": "Tiger",
+        "correct": false
+      },
+      {
+        "answerOptions": "Elephant",
+        "correct": false
+      },
+      {
+        "answerOptions": "Giraffe",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the largest ocean on Earth?",
+    "answers": [
+      {
+        "answerOptions": "Indian Ocean",
+        "correct": false
+      },
+      {
+        "answerOptions": "Atlantic Ocean",
+        "correct": false
+      },
+      {
+        "answerOptions": "Arctic Ocean",
+        "correct": false
+      },
+      {
+        "answerOptions": "Pacific Ocean",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which famous playwright wrote 'Romeo and Juliet'?",
+    "answers": [
+      {
+        "answerOptions": "William Shakespeare",
+        "correct": true
+      },
+      {
+        "answerOptions": "Oscar Wilde",
+        "correct": false
+      },
+      {
+        "answerOptions": "George Bernard Shaw",
+        "correct": false
+      },
+      {
+        "answerOptions": "Jane Austen",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the world's largest desert?",
+    "answers": [
+      {
+        "answerOptions": "Sahara Desert",
+        "correct": true
+      },
+      {
+        "answerOptions": "Arabian Desert",
+        "correct": false
+      },
+      {
+        "answerOptions": "Gobi Desert",
+        "correct": false
+      },
+      {
+        "answerOptions": "Atacama Desert",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the capital city of Brazil?",
+    "answers": [
+      {
+        "answerOptions": "Sao Paulo",
+        "correct": false
+      },
+      {
+        "answerOptions": "Rio de Janeiro",
+        "correct": false
+      },
+      {
+        "answerOptions": "Brasilia",
+        "correct": true
+      },
+      {
+        "answerOptions": "Buenos Aires",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the largest continent in the world?",
+    "answers": [
+      {
+        "answerOptions": "Africa",
+        "correct": false
+      },
+      {
+        "answerOptions": "Asia",
+        "correct": true
+      },
+      {
+        "answerOptions": "North America",
+        "correct": false
+      },
+      {
+        "answerOptions": "Europe",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the capital city of Canada?",
+    "answers": [
+      {
+        "answerOptions": "Toronto",
+        "correct": false
+      },
+      {
+        "answerOptions": "Vancouver",
+        "correct": false
+      },
+      {
+        "answerOptions": "Ottawa",
+        "correct": true
+      },
+      {
+        "answerOptions": "Montreal",
+        "correct": false
+      }
+    ]
+  }
+ ]

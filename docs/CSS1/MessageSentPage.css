@@ -1,0 +1,11 @@
+﻿body {
+    background-image: url('../Picturs1/backgroundabout.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home_page_button {
+    background-color: rgb(248,242,240);
+}

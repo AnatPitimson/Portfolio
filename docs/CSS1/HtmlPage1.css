@@ -1,0 +1,113 @@
+﻿h1 {
+    margin: 0px;
+}
+
+.home_page_text {
+    padding:100px;
+}
+
+.point {
+    height:100px; 
+    padding-top:30px; 
+    margin-right:50px;
+}
+
+.text_div{
+    display:flex;
+    margin-bottom:10px;
+}
+
+p {
+    font-size: 17px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+    p strong {
+        font-size: 30px;
+        background-color: rgba(255, 255, 255,0.5);
+        padding: 10px;
+        border-bottom: 1px solid lightgray;
+        border-radius: 10px;
+    }
+
+.hello {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(248,242,240);
+    border:1px solid lightgray;
+    border-radius:100px;
+}
+
+.cartoon {
+    border-radius: 200px;
+    height: 400px;
+    width: 400px;
+    background-color: transparent;
+    border: 1px solid lightgray;
+}
+
+.about_me_btn {
+    width: 100px;
+    padding: 10px 7px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    color: black;
+    outline: none;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+    .about_me_btn:hover {
+        transform: scale(1.1);
+        font-weight: bold;
+    }
+
+.btn_icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    margin: 0px 10px;
+}
+
+    .btn_icon:hover {
+        box-shadow: 0 0 10px lightgray;
+    }
+
+.start_container {
+    margin: 135px 100px 100px 100px;
+}
+
+.scroll {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    transition: transform 1s ease;
+}
+
+    .scroll.slide {
+        transition: transform 1s ease;
+    }
+
+.contant_container {
+    display: flex;
+    flex-direction: column;
+}
+
+    .contant_container ul {
+        list-style-type: none;
+        padding: 10px 0px;
+    }
+
+    .contant_container li {
+        display: inline-block
+    }
