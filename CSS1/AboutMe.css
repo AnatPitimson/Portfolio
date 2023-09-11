@@ -1,0 +1,109 @@
+﻿body {
+    background-image: url('../Picturs1/backgroundabout.png');
+}
+
+p {
+    padding: 20px 100px 10px 100px;
+    font-size: 30px;
+    flex: 1;
+    background-color: white;
+    border-radius: 100px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.title_img {
+    display: flex;
+    left: 50%;
+    justify-content: center;
+    right: 50%;
+}
+
+.skills_and_Abilities_title,
+.projects_container_title {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.about_me_div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.img_cartoon {
+    margin-right: 200px;
+    border-radius: 50px;
+    height: 500px;
+}
+
+.skills_and_Abilities {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    padding: 10px 100px;
+}
+
+span {
+    margin-bottom: 10px;
+}
+
+.item_in_skills_and_Abilities, .projects_container_item {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border:5px solid lightgray;
+    border-radius: 10px;
+    background-color:white;
+}
+
+.item_in_skills_and_Abilities {
+    background-color: white;
+}
+
+    .item_in_skills_and_Abilities img {
+        height: 50px;
+        width: 50px;
+        margin-bottom: 10px;
+    }
+
+.projects_container_item {
+    height: 360px;
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+.project_img {
+    height: 170px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.projects_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.qr_pic {
+    height: 100px;
+    width: 100px;
+    padding: 11px;
+}
